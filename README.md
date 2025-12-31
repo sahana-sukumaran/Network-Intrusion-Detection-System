@@ -1,5 +1,4 @@
 # Network Intrusion Detection System (NIDS)
-# Network Intrusion Detection System (NIDS)
 
 A rule-based Network Intrusion Detection System designed to monitor live network traffic, analyze packets, and detect suspicious or malicious activities using predefined signatures stored in a database.
 
