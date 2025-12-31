@@ -3,7 +3,7 @@
 A rule-based Network Intrusion Detection System designed to monitor live network traffic, analyze packets, and detect suspicious or malicious activities using predefined signatures stored in a database.
 
 ## 📌 Overview
-This project implements a lightweight NIDS that captures real-time network packets, evaluates them against intrusion detection rules stored in a database, and generates alerts based on severity. It focuses on understanding core NIDS concepts such as packet inspection, signature-based detection, and alert generation.
+This project implements a lightweight NIDS that captures real-time network packets, evaluates them against intrusion detection rules stored in a database, and generates alerts based on severity. 
 
 ## 🚀 Features
 - Live network traffic monitoring  
@@ -18,7 +18,7 @@ This project implements a lightweight NIDS that captures real-time network packe
 - Protocol abuse  
 - Suspicious data exfiltration patterns  
 
-## 🛠️ Technologies Used
+## 🛠 Technologies Used
 - Python  
 - Scapy – Packet capture and analysis  
 - Nmap – Active host discovery and scanning  
@@ -32,7 +32,7 @@ This project implements a lightweight NIDS that captures real-time network packe
 - Classify activity based on rule severity  
 - Generate alerts for detected threats  
 
-## ⚙️ How It Works
+## ⚙ How It Works
 - Network packets are captured in real time.  
 - Each packet is analyzed against predefined intrusion rules stored in a database.  
 - If a rule is triggered, an alert is generated with the corresponding severity level.  
