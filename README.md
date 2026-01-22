@@ -41,3 +41,20 @@ This project implements a lightweight NIDS that captures real-time network packe
 - Each packet is analyzed against predefined intrusion rules stored in a database.  
 - If a rule is triggered, an alert is generated with the corresponding severity level.  
 - Multiple detection tasks run concurrently using multithreading for better performance.
+
+##  Setup & Usage
+1. Clone the repository
+   ```bash
+   git clone https://github.com/sahana-sukumaran/Network-Intrusion-Detection-System.git
+   cd Network-Intrusion-Detection-System
+2. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+3. Run the NIDS
+   ```bash
+   sudo python monitor.py
+Note: Root privileges are required for packet capture and network scanning.
+
+##  Configuration & Security
+- Sensitive configuration such as IP ranges, network interfaces, and credentials are stored in a `.env` file  
+- A `.env.example` file is provided to indicate required environment variables without exposing real values  
